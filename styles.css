@@ -1,0 +1,116 @@
+
+body {
+  background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/50/26/GlFktC.jpg");
+  background-color: #cccccc;
+  text-align: center;
+  font-family: "Trebuchet MS", Arial;
+  color: rgba(0, 0, 0);
+}
+
+div.centerall {
+  height: 25em;
+  position: relative;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 1px 3px 8px grey;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background: #000;
+}
+
+li {
+  float: left;
+  z-index: 999;
+
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #008b8b;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  opacity: 1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img {
+  width: 35%;
+  height: auto;
+}
+
+.sarah {
+  width: 250px;
+  height: auto;
+}
+
+.projects {
+  width: 500px;
+  height: auto;
+}
+
+.skills {
+  width: 150px;
+  height: auto;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {
+    width: 200px;
+    float: left;
+  }
+}
+
+.emoj {
+  font-family: monospace;
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  left: 20px;
+  top: 20px;
+}

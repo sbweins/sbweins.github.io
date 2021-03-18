@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@formspree/react": "^2.2.3"
+  }
+}
