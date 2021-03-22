@@ -1,3 +1,12 @@
+
+  /*!
+  Credit and Thank you to Tim Holman: 
+ * Emoji Cursor.js
+ * - 90's cursors collection
+ * -- https://github.com/tholman/90s-cursor-effects
+ * -- https://codepen.io/tholman/full/rxJpdQ
+ */
+
 (function emojiCursor() {
   
     var possibleEmoji = ["😀", "😂", "😆", "😊"]
@@ -117,3 +126,4 @@
     
     init();
   })();
+
