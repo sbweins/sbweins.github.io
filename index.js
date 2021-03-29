@@ -1,3 +1,4 @@
+// This is cool, but I'd like to see some of your own DOM manipulation, too!!
 
   /*!
   Credit and Thank you to Tim Holman: 
