@@ -2,38 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"` content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="index.js"></script>
     <title>Sarah Weinstein</title>
 </head>
 
 <body>
-  <ul>
-    <li class="nav"><a href="index.html">Home</a></li>
-    <li class="nav"><a href="about.html">About Me</a></li>
-    <li class="nav"><a href="projects.html">My Projects</a></li>
-    <li class="nav"><a href="skills.html">Skills</a></li>
 
-    <li class="nav"><a href="contact.html">Contact</a></li>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Resume</a>
-      <div class="dropdown-content">
-        <a href="https://docs.google.com/document/d/1KK5mcJqsWsXBMODyhqD7sVhCViBjD5Gwo-Wpsb3jwRE/edit?usp=sharing" target="_blank">Resume Link</a>
-      </div>
-    </li>
-  </ul>
+  <nav>
+    <ul class="navul">
+      <li class="nav"><a href="index.html">Home</a></li>
+      <li class="nav"><a href="about.html">About Me</a></li>
+      <li class="nav"><a href="projects.html">My Projects</a></li>
+      <li class="nav"><a href="skills.html">Skills</a></li>
 
-  <div class=centerall>
-    <h1>Contact Me!</h1>
+      <li class="nav"><a href="contact.html">Contact</a></li>
+      <li class="dropdown">
+        <a href="" class="dropbtn">Resume</a>
+        <div class="dropdown-content">
+          <a href="https://docs.google.com/document/d/1KK5mcJqsWsXBMODyhqD7sVhCViBjD5Gwo-Wpsb3jwRE/edit?usp=sharing"
+            target="_blank">Resume Link</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <br><br>
+  <button id="bg-change" type="button" onclick="switchMode()">Switch Mode!</button>
+
+  <main class=centerall>
+    <h1>Contact Sarah Weinstein!</h1>
      <p>Have any questions or comments?</p>
-     <p>Email: SarahWeinstein@pursuit.org</p>
+     <p>My email: SarahWeinstein@pursuit.org</p>
      <p><a href="mailto:sarahweinstein@pursuit.org">Click here to email me!</a><br></p>
-  </div>
+     <p>OR fill out the form below!</p>
 
-     <div class="emoj"></div>
+     <form action="mailto:sarahweinstein@pursuit.org" method="post" enctype="text/plain">
+      Name:<br>
+      <input type="text" name="name"><br>
+      E-mail:<br>
+      <input type="text" name="mail"><br>
+      Message:<br>
+      <input type="text" name="comment" size="50"><br><br>
+      <input type="submit" value="Send">
+      <input type="reset" value="Reset">
+      </form>
+  </main>
+
+  <div class="emoj"></div>
 
 </body>
 
