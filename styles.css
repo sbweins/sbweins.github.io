@@ -1,13 +1,24 @@
-
 body {
-  background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/50/26/GlFktC.jpg");
-  background-color: #cccccc;
+  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?size=626&ext=jpg");
+  background-color: rgb(255, 255, 255);
   text-align: center;
   font-family: "Trebuchet MS", Arial;
-  color: rgba(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
-div.centerall {
+.lightmode {
+  background-image: url('https://img.wallpapersafari.com/desktop/1680/1050/50/26/GlFktC.jpg');
+  background-color: rgb(255, 255, 255);;
+  color: rgb(0, 0, 0)
+}
+
+.darkmode {
+  background-image: url("https://img.freepik.com/free-vector/dark-hexagonal-background-with-gradient-color_79603-1410.jpg?size=626&ext=jpg");
+  background-color: #fff;
+  color: rgb(255, 255, 255);
+}
+
+main.centerall {
   height: 25em;
   position: relative;
   margin: 0;
@@ -16,23 +27,22 @@ div.centerall {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  text-shadow: 1px 3px 8px grey;
+  text-shadow: 1px 3px 8px rgb(145, 145, 145);
 }
 
-ul {
+ul.navul {
   list-style-type: none;
   width: 100%;
   margin: 0;
   padding: 0;
   overflow: hidden;
   width: 100%;
-  background: #000;
+  background: rgb(0, 0, 0);
 }
 
 li {
   float: left;
   z-index: 999;
-
 }
 
 li a,
@@ -99,13 +109,6 @@ img {
   height: auto;
 }
 
-@media screen and (min-width: 480px) {
-  #leftsidebar {
-    width: 200px;
-    float: left;
-  }
-}
-
 .emoj {
   font-family: monospace;
   position: absolute;
@@ -113,4 +116,17 @@ img {
   font-size: 14px;
   left: 20px;
   top: 20px;
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }
