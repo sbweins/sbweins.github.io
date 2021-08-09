@@ -1,4 +1,8 @@
-
+/* 
+Right now your page layouts don't work on mobile!
+I highly recommend using flexbox and grid, in combination with media queries,
+to create responsive, mobile friend layouts!!!
+*/
 body {
   background-image: url("https://img.wallpapersafari.com/desktop/1680/1050/50/26/GlFktC.jpg");
   background-color: #cccccc;
